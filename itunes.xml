@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <!-- Key value pairs related to global library settings -->
+        <key>Major Version</key><integer>1</integer>
+        <key>Minor Version</key><integer>1</integer>
+        <key>Date</key><date>2022-04-10T19:07:56Z</date>
+        <key>Application Version</key><string>1.0.6.10</string>
+        <key>Features</key><integer>5</integer>
+        <key>Show Content Ratings</key><true/>
+        <key>Music Folder</key><string>file:///Users/Alice/Music/</string>
+        <key>Library Persistent ID</key><string>12345678</string>
+        <!-- XML Dictionary of NumericalTrackID: track dict pairs -->
+        <key>Tracks</key><dict>
+            <!-- Repeated NumericalTrackID: dict pairs -->
+            <key>123</key><dict>
+                <key>Name</key><string>Never Gonna Give You Up</string>
+                <key>Album</key><string>Whenever You Need Somebody</string>
+                <key>Artist</key><string>Rick Astley</string>
+            </dict>
+            <key>234</key><dict>
+                <key>Name</key><string>All Star</string>
+                <key>Album</key><string>Astro Lounge</string>
+                <key>Artist</key><string>Smash Mouth</string>
+            </dict>
+            <key>345</key><dict>
+                <key>Name</key><string>Sandstorm</string>
+                <key>Album</key><string>Before The Storm</string>
+                <key>Artist</key><string>Darude</string>
+            </dict>
+            <key>456</key><dict>
+                <key>Name</key><string>Here It Goes Again</string>
+                <key>Album</key><string>Oh No</string>
+                <key>Artist</key><string>OK Go</string>
+            </dict>
+        </dict>
+        <!-- Playlists: XML array of playlist dicts -->
+        <key>Playlists</key><array>
+            <!-- Repeated playlist dict elements -->
+            <!-- Default Playlists -->
+            <dict>
+                <key>Name</key><string>Library</string>
+                <key>Playlist Items</key><array>
+                    <dict>
+                        <key>Track ID</key><integer>123</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>234</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>345</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>456</integer>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key><string>Downloaded</string>
+                <key>Playlist Items</key><array></array>
+            </dict>
+            <dict>
+                <key>Name</key><string>Music</string>
+                <key>Playlist Items</key><array></array>
+            </dict>
+            <dict>
+                <key>Name</key><string>Podcasts</string>
+                <key>Playlist Items</key><array></array>
+            </dict>
+            <dict>
+                <key>Name</key><string>Albums</string>
+                <key>Playlist Items</key><array></array>
+            </dict>
+            <!-- User Playlists -->
+            <dict>
+                <key>Name</key><string>My Playlist</string>
+                <key>Playlist Items</key><array>
+                    <dict>
+                        <key>Track ID</key><integer>123</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>456</integer>
+                    </dict>
+                </array>
+            </dict>
+            <dict>
+                <key>Name</key><string>My Other Playlist</string>
+                <key>Playlist Items</key><array>
+                    <dict>
+                        <key>Track ID</key><integer>234</integer>
+                    </dict>
+                    <dict>
+                        <key>Track ID</key><integer>345</integer>
+                    </dict>
+                </array>
+            </dict>
+        </array>
+    </dict>
+</plist>
